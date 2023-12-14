@@ -1,0 +1,36 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+
+.fighter-preview___left img,
+.fighter-preview___right img {
+  max-height: 250px;
+}
+
+.fighter-info-thumb {
+  background-color: #ffdfa7;
+  border: 5px solid #ca9650;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+
+.fighter-info {
+  color: #267abf;
+}
+
+.fighter-preview___img {
+  align-self: center;
+}
